@@ -1,0 +1,39 @@
+h1{
+    color: rgb(47, 102, 141);
+}
+body{
+    background-color: rgb(226, 223, 223);
+}
+.menu {
+    list-style-type: none ;
+    text-indent: 1pt;
+}
+.menu a {
+    font-size: 14pt;
+    line-height: 1.25em; 
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.menu a:hover {
+    color: rgb(250, 210, 205);
+    background-color:  rgb(47, 102, 141);
+}
+.names{
+    color: rgb(190, 123, 176);
+}
+.biohr {
+    color: rgb(190, 123, 176);
+    text-indent: 28pt;
+}
+.navig {
+    text-indent: 28pt;
+    color: rgb(48, 48, 48);
+}
+.paragraph {
+    font-size: 28pt;
+}
+.tg{
+    color: rgb(190, 123, 176);
+    font-size: 16pt;
+
+}
