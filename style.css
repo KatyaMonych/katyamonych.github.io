@@ -1,39 +1,186 @@
-h1{
-    color: rgb(47, 102, 141);
+body {
+  background-color: rgb(226, 223, 223);
+  margin: 0%;
 }
-body{
-    background-color: rgb(226, 223, 223);
+.one {
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+  min-width: 100vh;
+  margin-top: -25px;
 }
+.Hello {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
+  line-height: 4px;
+  color: rgb(71, 109, 134);
+  text-align: center;
+  font-size: 22px;
+}
+.Hello a {
+  font-family: "Segoe UI";
+}
+img {
+  border-radius: 4%;
+}
+
 .menu {
-    list-style-type: none ;
-    text-indent: 1pt;
+  list-style-type: none;
+  text-indent: 2pt;
+  display: flex;
+  margin: 2%;
+  flex-direction: row;
+  margin-block-start: 0.5em;
+  margin-block-end: 0.5em;
 }
 .menu a {
-    font-size: 14pt;
-    line-height: 1.25em; 
-    text-transform: uppercase;
-    text-decoration: none;
+  line-height: 1.25em;
+  font-size: 14pt;
+  text-decoration: none;
+  padding: 5px;
+  margin: 0px 10px 0px 10px;
 }
 .menu a:hover {
-    color: rgb(250, 210, 205);
-    background-color:  rgb(47, 102, 141);
+  color: rgb(50, 55, 55);
+  background-color: rgb(159, 188, 209);
+  border-radius: 7px;
+  padding: 5px;
 }
-.names{
-    color: rgb(190, 123, 176);
-}
+
 .biohr {
-    color: rgb(190, 123, 176);
-    text-indent: 28pt;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-indent: 28pt;
+  font-size: 30pt;
+  color: rgb(71, 109, 134);
 }
 .navig {
-    text-indent: 28pt;
-    color: rgb(48, 48, 48);
+  text-indent: 28pt;
+  color: rgb(48, 48, 48);
 }
 .paragraph {
-    font-size: 28pt;
+  font-size: 28pt;
 }
-.tg{
-    color: rgb(190, 123, 176);
-    font-size: 16pt;
-
+.tg {
+  color: rgb(190, 123, 176);
+  font-size: 16pt;
+}
+.box {
+  list-style: none;
+  background-color: rgb(50, 55, 55);
+  display: flex;
+  width: 100%;
+  position: sticky;
+  top: 0;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 0px;
+}
+.box a {
+  text-decoration: none;
+  color: rgb(159, 188, 209);
+}
+.logo {
+  color: rgb(164, 205, 234);
+  font-size: 18px;
+  margin-left: 15px;
+}
+.lnaa {
+  text-decoration: none;
+  color: rgb(71, 109, 134);
+}
+.aboutMe {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  min-width: 100vh;
+  margin-top: -75px;
+  gap: 30px;
+}
+.text {
+  flex-wrap: wrap;
+  width: 800px;
+  font-size: 18px;
+  font-family: "Segoe UI";
+  text-align: center;
+  color: rgb(50, 55, 55);
+}
+.facts {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-indent: 28pt;
+  font-size: 30pt;
+  color: rgb(71, 109, 134);
+}
+.text2 {
+  color: rgb(50, 55, 55);
+  font-size: 18px;
+  font-family: "Segoe UI";
+  align-items: flex-start;
+  width: 400px;
+  margin-left: 15px;
+  margin-right: auto;
+}
+.box2 {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  min-height: 100vh;
+  min-width: 100vh;
+  margin-top: -100px;
+}
+.img2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 35px;
+}
+.programs {
+  color: rgb(50, 55, 55);
+  font-size: 18px;
+  font-family: "Segoe UI";
+  align-items: flex-start;
+  width: 400px;
+  margin-left: 15px;
+  margin-right: auto;
+  margin-top: -70px;
+}
+.box3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 50vh;
+  min-width: 50vh;
+  margin-top: -60px;
+  gap: 0px;
+}
+.img3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -60px;
+}
+.names {
+  display: flex;
+  color: rgb(71, 109, 134);
+  justify-content: center;
+  text-indent: 28pt;
+  font-size: 16pt;
+  gap: 230px;
+  margin-left: 580px;
+}
+.portfolio {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-indent: 28pt;
+  font-size: 30pt;
+  color: rgb(71, 109, 134);
 }
