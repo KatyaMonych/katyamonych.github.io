@@ -1,6 +1,8 @@
 body {
   background-color: rgb(226, 223, 223);
   margin: 0%;
+  
+  
 }
 .one {
   justify-content: space-between;
@@ -20,11 +22,11 @@ body {
   text-align: center;
   font-size: 22px;
 }
-.Hello a {
-  font-family: "Segoe UI";
+.Hello {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 img {
-  border-radius: 4%;
+  border-radius: 3%;
 }
 
 .menu {
@@ -40,14 +42,15 @@ img {
   line-height: 1.25em;
   font-size: 14pt;
   text-decoration: none;
-  padding: 5px;
-  margin: 0px 10px 0px 10px;
+  padding: 4px;
+  margin: 10px 10px 10px 10px;
+  font-family: 'Segoe UI', Verdana;
 }
 .menu a:hover {
   color: rgb(50, 55, 55);
   background-color: rgb(159, 188, 209);
-  border-radius: 7px;
-  padding: 5px;
+  padding: 2px 4px 4px 4px;
+  border-radius: 4px;
 }
 
 .biohr {
@@ -55,8 +58,9 @@ img {
   justify-content: center;
   align-items: center;
   text-indent: 28pt;
-  font-size: 30pt;
+  font-size: 28pt;
   color: rgb(71, 109, 134);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .navig {
   text-indent: 28pt;
@@ -89,6 +93,7 @@ img {
   color: rgb(164, 205, 234);
   font-size: 18px;
   margin-left: 15px;
+  font-family: 'Segoe UI', Verdana;
 }
 .lnaa {
   text-decoration: none;
@@ -98,15 +103,13 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-  min-height: 100vh;
-  min-width: 100vh;
-  margin-top: -75px;
-  gap: 30px;
+    gap: 60px;
+    margin-top:60px;
 }
 .text {
   flex-wrap: wrap;
   width: 800px;
-  font-size: 18px;
+  font-size: 22px;
   font-family: "Segoe UI";
   text-align: center;
   color: rgb(50, 55, 55);
@@ -116,8 +119,9 @@ img {
   justify-content: center;
   align-items: center;
   text-indent: 28pt;
-  font-size: 30pt;
+  font-size: 21pt;
   color: rgb(71, 109, 134);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .text2 {
   color: rgb(50, 55, 55);
@@ -132,9 +136,7 @@ img {
   align-items: center;
   justify-content: center;
   display: flex;
-  min-height: 100vh;
-  min-width: 100vh;
-  margin-top: -100px;
+  margin-top: 80px;
 }
 .img2 {
   display: flex;
@@ -144,37 +146,30 @@ img {
 }
 .programs {
   color: rgb(50, 55, 55);
-  font-size: 18px;
+  font-size: 19px;
   font-family: "Segoe UI";
-  align-items: flex-start;
-  width: 400px;
+  width: 3000px;
   margin-left: 15px;
-  margin-right: auto;
-  margin-top: -70px;
+  margin-right: 15px;
+  margin-top: -150px;
+
 }
 .box3 {
+  min-height: 100vh;
+  min-width: 100vh;
   display: flex;
   align-items: center;
-  justify-content: center;
-  min-height: 50vh;
-  min-width: 50vh;
-  margin-top: -60px;
-  gap: 0px;
+
 }
 .img3 {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: -60px;
+  margin-top: -110px;
 }
 .names {
-  display: flex;
-  color: rgb(71, 109, 134);
-  justify-content: center;
-  text-indent: 28pt;
-  font-size: 16pt;
-  gap: 230px;
-  margin-left: 580px;
+  padding-bottom: 5px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .portfolio {
   display: flex;
@@ -183,4 +178,51 @@ img {
   text-indent: 28pt;
   font-size: 30pt;
   color: rgb(71, 109, 134);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+
+.portfoliobox{
+  min-height: 100vh;
+  min-width: 100vh;
+  
+}
+.photos{
+  min-height: 100vh;
+  min-width: 100vh;
+  
+  height: 300px;
+  column-count: 2;
+margin-left: 200px;
+margin-top: 35px;
+
+}
+
+figcaption {
+  color: rgb(71, 109, 134);
+  font-size: 22px;
+  margin-bottom: 25px;
+}
+.social{
+  min-height: 100vh;
+  display: flex;
+  min-width: 100vh;
+  align-items: center;
+  justify-content: space-around;
+  column-count: 2;
+  gap: 300px;
+  margin-left: 300px;
+
+}
+.boxx{
+  min-height: 100vh;
+  min-width: 100vh;
+}
+.boxx2{
+
+  min-height: 100vh;
+  min-width: 100vh;
+}
+.touch{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+} 
+
